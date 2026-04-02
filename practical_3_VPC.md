@@ -51,3 +51,31 @@ This allows internet access for public resources.
 
 ---
 
+## Step 5: NAT Gateway
+
+1. Create NAT Gateway in Public Subnet
+2. Allocate Elastic IP
+
+### Private Route Table:
+- Route: 0.0.0.0/0 → NAT Gateway
+
+---
+
+## Step 6: Security
+
+### Security Groups:
+- Allow HTTP (80)
+- Allow SSH (22)
+
+### NACL:
+- Allow inbound/outbound traffic as needed
+
+---
+
+## Step 7: Testing
+
+1. Launch EC2 in Public Subnet → should have internet
+2. Launch EC2 in Private Subnet → no direct internet
+3. Verify NAT Gateway works
+
+✅ Setup Complete!
