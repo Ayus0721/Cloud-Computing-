@@ -79,6 +79,3 @@ Students will create free-tier accounts, explore dashboards, and understand pric
 This exercise provided hands-on exposure to cloud platforms, their interfaces, and pricing models. Understanding these basics is essential for working with cloud technologies.
 
 ---
-
-## 📎 Author
-- Your Name
