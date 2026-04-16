@@ -79,3 +79,11 @@ Students will create free-tier accounts, explore dashboards, and understand pric
 This exercise provided hands-on exposure to cloud platforms, their interfaces, and pricing models. Understanding these basics is essential for working with cloud technologies.
 
 ---
+
+<img width="1918" height="1078" alt="Instances" src="https://github.com/user-attachments/assets/7252fc10-f736-4905-9395-d16402dcbbcc" />
+<img width="1918" height="1078" alt="Instances2" src="https://github.com/user-attachments/assets/5d09bec1-9b16-4386-b8a7-2def0e43b350" />
+<img width="1918" height="1078" alt="Instances3" src="https://github.com/user-attachments/assets/cb54a124-80dd-4305-b13a-c6d03e51d531" />
+<img width="1918" height="1078" alt="Vm" src="https://github.com/user-attachments/assets/063baee1-3573-4d21-9886-231695160adf" />
+<img width="1918" height="1078" alt="Putty" src="https://github.com/user-attachments/assets/1a792d57-d438-43a0-8097-b419c8a57c66" />
+
+
