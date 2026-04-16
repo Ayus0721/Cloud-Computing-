@@ -1,5 +1,5 @@
 # Create EC2
-## Step 1: Launch EC2 Instance
+## Step Launch EC2 Instance
 
 ### Steps:
 1. Go to AWS Console
@@ -16,51 +16,33 @@
 ### Result:
 Your EC2 instance is launched successfully.
 
-## Step 2: Connect to EC2
+## Connect to EC2
 
 ### Using SSH:
 1. Open terminal
 2. Run:
-ssh -i your-key.pem ec2-user@your-public-ip
-
-### Using Browser:
-- Click "Connect" → EC2 Instance Connect
-
-# Step 3: Security Groups
-
-### Allow:
-- SSH (22) → Your IP
-- HTTP (80) → Anywhere (0.0.0.0/0)
+ssh -i your-key.ppk ec2-user@your-public-ip
 
 ### Note:
 Security groups act as firewall.
 
-## Step 4: Storage (EBS)
+## Storage (EBS)
 
 ### Default:
 - 8GB root volume
 
-### Add Volume:
-1. Go to Volumes
-2. Create new volume
-3. Attach to EC2
-
-### Mount:
-Use Linux commands to mount the disk.
-
-## Step 5: Elastic IP
-
-### Steps:
-1. Allocate Elastic IP
-2. Associate with EC2
-
-### Benefit:
-Static public IP address
-
-## Step 6: Cleanup
+## Cleanup
 
 1. Stop or terminate EC2
 2. Release Elastic IP
 3. Delete unused volumes
 
 ✅ Avoid unnecessary charges
+
+<img width="1918" height="1078" alt="Instances" src="https://github.com/user-attachments/assets/50bb3003-3361-4502-9d09-7fcab431b10a" />
+<img width="1918" height="1078" alt="Instances2" src="https://github.com/user-attachments/assets/7f2dae23-9404-49bd-ae17-cd7250ed087a" />
+<img width="1918" height="1078" alt="Instances3" src="https://github.com/user-attachments/assets/32114803-2ef8-4b58-9c42-37211ef5f68e" />
+<img width="1918" height="1078" alt="Vm" src="https://github.com/user-attachments/assets/01fe4a77-ec49-40b0-a59c-9e9446189ea5" />
+<img width="1918" height="1078" alt="Putty" src="https://github.com/user-attachments/assets/2fcf9a7e-24b8-44f2-b65d-8198f4791d10" />
+
+
