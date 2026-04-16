@@ -67,8 +67,13 @@ This allows internet access for public resources.
 ### Public Route Table:
 - Add route: 0.0.0.0/0 → Internet Gateway
 
+<img width="1918" height="960" alt="Route pub" src="https://github.com/user-attachments/assets/9ce9e106-a70d-4606-8721-7d42ae2969cd" />
+
+
 ### Associate:
 - Link with Public Subnet
+
+<img width="1918" height="966" alt="associate" src="https://github.com/user-attachments/assets/db802c06-7666-4223-9fd2-829192f4d81b" />
 
 ---
 
@@ -77,27 +82,26 @@ This allows internet access for public resources.
 1. Create NAT Gateway in Public Subnet
 2. Allocate Elastic IP
 
+<img width="1918" height="968" alt="new" src="https://github.com/user-attachments/assets/5d090172-ff47-4bff-ae3d-3ccda379326f" />
+
+<img width="1617" height="908" alt="Nat succeed" src="https://github.com/user-attachments/assets/f0191400-ff00-460c-9921-096c0735dbbb" />
+
+---
+
 ### Private Route Table:
 - Route: 0.0.0.0/0 → NAT Gateway
+<img width="1918" height="957" alt="route nat" src="https://github.com/user-attachments/assets/a98c8a90-6877-4aa1-90cf-40a9cc84df20" />
 
 ---
 
-## Step 6: Security
 
-### Security Groups:
-- Allow HTTP (80)
-- Allow SSH (22)
-
-### NACL:
-- Allow inbound/outbound traffic as needed
-
----
-
-## Step 7: Testing
+## Step 6: Testing
 
 1. Launch EC2 in Public Subnet → should have internet
 
-   
+<img width="1918" height="1078" alt="Testing" src="https://github.com/user-attachments/assets/1a14a908-669c-4013-93f1-a920627ee93c" />
+
+
 2. Launch EC2 in Private Subnet → no direct internet
 3. Verify NAT Gateway works
 
